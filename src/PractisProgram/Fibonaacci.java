@@ -10,14 +10,37 @@ public class Fibonaacci {
 	        System.out.print("Enter number of terms: ");
 	        int n = sc.nextInt();
 
-	        int a = 0, b = 1;
-	        System.out.print("Fibonacci Series: " + a + " " + b);
+	        int a = 0, b = 1,c;
+//	        System.out.print("Fibonacci Series: " + a + " " + b);
 
-	        for (int i = 2; i < n; i++) {
-	            int c = a + b;
-	            System.out.print(" " + c);
-	            a = b;
-	            b = c;
+	        if(n > 0) 
+	        {
+	        	
+	        	if( n ==1 ) 
+	        	{
+	        		System.out.print(a);
+	        	}
+	        	else if(n==2)
+	        	{
+	        	   System.out.print(a + "\t" + b);	
+	        	}
+	        	else
+	        	{
+	        		System.out.print(a + "\t" + b);
+	        	    for(int i = 2 ; i < n;i++) 
+	        	    {	
+	        	           c = a + b ;
+	        	          a = b;
+	        	          b = c;
+	        	          System.out.print("\t"+ c);
+	        	          
+	        	          
+	        	    }
+	        	}
+	        	
+	        }
+	        else {
+	        	System.out.println("Invalid Number");
 	        }
 
 
