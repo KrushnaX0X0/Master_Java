@@ -68,14 +68,5 @@ public class Bank {
 
 	}
 
-	private static int nextint() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	private static String next() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
+	
 }

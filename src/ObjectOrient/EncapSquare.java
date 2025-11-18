@@ -3,17 +3,17 @@ package ObjectOrient;
  class Side
  {
      int side;
-//     
-//   void set_side(int s)
-//   {
-//	   this.side = s;
-//   }
-//   
-//   int get_side()
-//   {
-//	   return this.side;
-//   }
-//   
+     
+   void set_side(int s)
+   {
+	   this.side = s;
+   }
+   
+   int get_side()
+   {
+	   return this.side;
+   }
+   
    int area()
    {
 	  return (side * side); 
