@@ -2,7 +2,7 @@ package Inheritance;
 
 class Demo1
 {
-   void hello1 ()
+   void hello ()
    {
 	   System.out.println("hello Student,from Demo1");
    }
@@ -19,18 +19,18 @@ class Demo2 extends Demo1
 
 class Test1 extends Demo2
 {
-//	void hello ()
-//	   {
-//		   System.out.println("hello Student,from test1");
-//	   }
+	void hello ()
+	   {
+		   System.out.println("hello Student,from test1");
+	   }
 }
 
 class Test2 extends Demo2
 {
-//	void hello ()
-//	   {
-//		   System.out.println("hello Student,from test2");
-//	   }
+	void hello ()
+	   {
+		   System.out.println("hello Student,from test2");
+	   }
 	
 }
 
@@ -44,7 +44,7 @@ public class Hybrid {
 		Test1 t1 = new Test1();
 		Test2 t2 = new Test2();
 		d2.hello();
-		d2.hello1();
+		d2.hello();
 		t1.hello();
 		t2.hello();
 		
