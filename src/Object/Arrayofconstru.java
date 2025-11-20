@@ -22,7 +22,7 @@ public class Arrayofconstru {
     public static void main(String[] args) {
     	
     	Scanner sc = new Scanner(System.in);
-         System.out.println("ENTER YOUR ELEMENT :");
+         System.out.print("ENTER YOUR ELEMENT :");
          int n = sc.nextInt();
             
         
@@ -32,13 +32,13 @@ public class Arrayofconstru {
    
         for(int i = 0;i < n ; i++)
         {
-        	 System.out.println("ENTER YOUR NAME : ");
+        	 System.out.print("ENTER YOUR NAME : ");
              String na = sc.next();
              
-             System.out.println("ENTER YOUR AGE : ");
+             System.out.print("ENTER YOUR AGE : ");
              int ag = sc.nextInt();
 
-             System.out.println("ENTER YOUR ROLL NO : ");
+             System.out.print("ENTER YOUR ROLL NO : ");
              int ro = sc.nextInt();
         	obj[i] = new Arrayofconstru(na, ag, ro);
 
