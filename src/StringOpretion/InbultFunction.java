@@ -80,7 +80,7 @@ public class InbultFunction {
 //		System.out.println(str.trim());
 		
 // Splitting and concatenation
-		String str = "I am hopping a lot of things ";
+		String str = "I am hopping a lot of things";
 		System.out.println(Arrays.toString(str.split(" ")));
 		
 		String con = str.concat(" i am happy");
